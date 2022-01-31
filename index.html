@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sanjeev Puspam | Portfolio | LAMP/JavaScript/Full Stck Developer </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <meta name="description" content="I am a full stack web developer, I can develop both client and server software In addition to mastering HTML and CSS" />
+    <!-- HOSTED -->
+    <link href="css/opensans.css" rel="stylesheet" type="text/css" />
+    <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- LOCAL -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon' />
+
+    <!-- HOSTED -->
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+
+    <!-- LOCAL -->
+    <script src="js/pt.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/modal.js"></script>
+</head>
+
+<body>
+    <div class="overflow-wrap">
+        <!-- HOME -->
+        <div class="modal-wrap flex">
+            <div class="mask"></div>
+            <div class="modal" id="modal">
+                <div class="carousel-wrap">
+                    <div class="window">
+                        <div id="carousel">
+                            <div class="slide"></div>
+                            <div class="slide"></div>
+                            <div class="slide"></div>
+                        </div>
+                        <i class="mdi mdi-chevron-left" id="prev"></i>
+                        <i class="mdi mdi-chevron-right" id="next"></i>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="title"></div>
+                    <div class="tag"></div>
+                    <div class="detail"></div>
+                    <a href="#" target="_blank">
+                        <div class="button">
+                            <i class="mdi mdi-open-in-new"></i>VIEW SITE
+                        </div>
+                    </a>
+                </div>
+                <i class="close mdi mdi-close"></i>
+            </div>
+        </div>
+
+        <section id="home" class="flex height-fix">
+            <div id="pt" class="canvas"></div>
+            <div class="flex">
+                <div class="text">
+                    Hello, I'm <span class="highlight">Sanjeev Puspam</span>.
+                    <br /> I'm a PHP/JavaScript Full Stack Developer.
+                </div>
+
+                <div class="button page-link" dest="about">
+                    View my work <i class="mdi mdi-arrow-right"></i>
+                </div>
+
+                <nav class="flex">
+                    <div class="link-wrap">
+                        <div class="active page-link" dest="home">home</div>
+                        <div class="page-link" dest="about">about</div>
+                        <div class="page-link" dest="portfolio">portfolio</div>
+                        <div class="page-link" dest="blog">Resume</div>
+                        <div class="page-link" dest="contact">Connect</div>
+                    </div>
+                    <i class="mdi mdi-menu"></i>
+                </nav>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <div class="container flex">
+                <div class="header waypoint" data-animation="slide-in-left">
+                    ABOUT
+                </div>
+                <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+                <div class="flex row label-wrap">
+                    <div class="flex row-gt-sm">
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-speedometer"></i>
+                                </div>
+                            </div>
+                            <div class="waypoint" data-animation="fade-in">
+                                <div class="label bold">Fast</div>
+                                <div>
+                                    Fast load times and lag free interaction, my highest priority.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-cellphone-link"></i>
+                                </div>
+                            </div>
+                            <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+                                <div class="label bold">Responsive</div>
+                                <div>My layouts will work on any device, big or small.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex row-gt-sm">
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-rocket"></i>
+                                </div>
+                            </div>
+                            <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+                                <div class="label bold">Dynamic</div>
+                                <div>
+                                    Websites don't have to be static, I love making pages come to life.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-lightbulb-outline"></i>
+                                </div>
+                            </div>
+                            <div class="waypoint" data-animation="fade-in" data-delay=".4s">
+                                <div class="label bold">Intuitive</div>
+                                <div>Strong preference for easy to use, intuitive UX/UI.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-wrapper flex row-gt-sm">
+                    <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+                        <div class="frame">
+                            <img src="img/me.png" class="me card" />
+                            <p>Sanjeev Puspam</p>
+                        </div>
+                        <div class="label bold">Who's this guy?</div>
+                        <div>
+                            I'm a LAMP/JavaScript Full Stack Developer for
+                            <a class="highlight" href="https://www.w3websolution.com" target="_blank">w3 web solution</a> in Delhi, India.
+                            <br />I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
+                            <br />
+                            <span class="page-link highlight" dest="contact">Let's make something special.</span>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-50-gt-sm waypoint bars-wrap" data-animation="slide-in-right">
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:90%">
+                                <div class="tag bold flex">HTML</div>
+                            </div>
+                            <span>90%</span>
+                        </div>
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:90%">
+                                <div class="tag bold flex">CSS / SCSS</div>
+                            </div>
+                            <span>90%</span>
+                        </div>
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:90%">
+                                <div class="tag bold flex">PHP</div>
+                            </div>
+                            <span>90%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:90%">
+                                <div class="tag bold flex">Wordpress</div>
+                            </div>
+                            <span>90%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:85%">
+                                <div class="tag bold flex">Laravel</div>
+                            </div>
+                            <span>85%</span>
+                        </div>
+						<div class="bar flex">
+                            <div class="bar fill" style="width:75%">
+                                <div class="tag bold flex">CodeIgniter</div>
+                            </div>
+                            <span>75%</span>
+                        </div>
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:85%">
+                                <div class="tag bold flex">Api</div>
+                            </div>
+                            <span>85%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:80%">
+                                <div class="tag bold flex">ReactJS</div>
+                            </div>
+                            <span>80%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:80%">
+                                <div class="tag bold flex">Node.js</div>
+                            </div>
+                            <span>80%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:80%">
+                                <div class="tag bold flex">JavaScript</div>
+                            </div>
+                            <span>80%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:80%">
+                                <div class="tag bold flex">JQuery</div>
+                            </div>
+                            <span>80%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:80%">
+                                <div class="tag bold flex">SQL/MySQL</div>
+                            </div>
+                            <span>80%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:60%">
+                                <div class="tag bold flex">MongoDB</div>
+                            </div>
+                            <span>60%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:60%">
+                                <div class="tag bold flex">UI Design</div>
+                            </div>
+                            <span>60%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:25%">
+                                <div class="tag bold flex">Photoshop</div>
+                            </div>
+                            <span>25%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section class="flex" id="portfolio">
+            <div class="header waypoint" data-animation="slide-in-right">
+                PROJECTS
+            </div>
+            <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+
+            <div class="filter-wrap waypoint" data-animation="fade-in">
+                <div class="flex row">
+                    <div class="filter" data-filter="all">ALL</div>
+                    <div class="filter" data-filter=".laravel">Laravel</div>
+					<div class="filter" data-filter=".ci">CodeIgniter</div>
+                    <div class="filter" data-filter=".wp">WordPress</div>
+                    <div class="filter" data-filter=".react">ReactJs</div>
+                    <div class="filter" data-filter=".node">NodeJS</div>
+                    <div class="filter" data-filter=".maze">Magento</div>
+                    <div class="filter" data-filter=".api">Api</div>
+                </div>
+                <div class="float-bar">
+                    <div class="flex row">
+                        <div class="filter" data-filter="all">ALL</div>
+                        <div class="filter" data-filter=".laravel">Laravel</div>
+						<div class="filter" data-filter=".ci">CodeIgniter</div>
+                        <div class="filter" data-filter=".wp">WordPress</div>
+                        <div class="filter" data-filter=".react">REACT-JS</div>
+                        <div class="filter" data-filter=".node">NodeJS</div>
+                        <div class="filter" data-filter=".maze">Magento</div>
+                        <div class="filter" data-filter=".api">Api</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="gallery" class="container flex row wrap waypoint">
+                <div class="mix laravel react api" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Venndy</div>
+                            <span class="highlight">Laravel/JQuery/ReactJS</span>
+                        </div>
+                        <div class="button" id="venndy">LEARN MORE</div>
+                    </div>
+                </div>
+                <div class="mix maze" data-my-order="2">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Indivisual Collective</div>
+                            <span class="highlight">Magento / JQuery</span>
+                        </div>
+                        <div class="button" id="indivisualcollective">LEARN MORE</div>
+                    </div>
+                </div>
+
+                <div class="mix laravel react api" data-my-order="3">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Ecomhunt</div>
+                            <span class="highlight">Laravel / ReactJS</span>
+                        </div>
+                        <div class="button" id="ecomhunt">LEARN MORE</div>
+                    </div>
+                </div>
+
+                <div class="mix node api" data-my-order="4">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Dhanuka FL App</div>
+                            <span class="highlight">NodeJS</span>
+                        </div>
+                        <div class="button" id="dhanuka">LEARN MORE</div>
+                    </div>
+                </div>
+                <div class="mix wp" data-my-order="5">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Dog Tube</div>
+                            <span class="highlight">Wordpress Youtube APi</span>
+                        </div>
+                        <div class="button" id="dogtube">LEARN MORE</div>
+                    </div>
+                </div>
+
+                <div class="mix wp" data-my-order="6">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Multiuser roles</div>
+                            <span class="highlight">Wordpress/ JQuery</span>
+                        </div>
+                        <div class="button" id="tftus">LEARN MORE</div>
+                    </div>
+                </div>
+
+                <div class="mix wp" data-my-order="7">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">woocommerce APi's</div>
+                            <span class="highlight">Wordpress/ JQuery</span>
+                        </div>
+                        <div class="button" id="monarchymedallions">LEARN MORE</div>
+                    </div>
+                </div>
+
+                <div class="mix wp" data-my-order="8">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">woocommerce APi's</div>
+                            <span class="highlight">Wordpress/ woocommerce </span>
+                        </div>
+                        <div class="button" id="purafem">LEARN MORE</div>
+                    </div>
+                </div>
+                <div class="mix wp" data-my-order="9">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Wordpress</div>
+                            <span class="highlight">Wordpress/ multiSites </span>
+                        </div>
+                        <div class="button" id="ccnet">LEARN MORE</div>
+                    </div>
+                </div>
+
+                <div class="mix wp" data-my-order="10">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Real Estate</div>
+                            <span class="highlight">Wordpress </span>
+                        </div>
+                        <div class="button" id="annarborapartments">LEARN MORE</div>
+                    </div>
+                </div>
+
+                <div class="mix wp" data-my-order="11">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold"></div>
+                            <span class="highlight">Wordpress </span>
+                        </div>
+                        <div class="button" id="thetrainingdesk">LEARN MORE</div>
+                    </div>
+                </div>
+				
+				<div class="mix ci react" data-my-order="12">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold"></div>
+                            <span class="highlight">Codeigniter / ReactJS </span>
+                        </div>
+                        <div class="button" id="ibta">LEARN MORE</div>
+                    </div>
+                </div>
+                <div class="mix react jquery html" data-my-order="13">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold"></div>
+                            <span class="highlight">jQuery / ReactJS / HTML </span>
+                        </div>
+                        <div class="button" id="medtronic">LEARN MORE</div>
+                    </div>
+                </div>
+                <div class="mix react" data-my-order="13">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold"></div>
+                            <span class="highlight"> ReactJS / HTML </span>
+                        </div>
+                        <div class="button" id="pim">LEARN MORE</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- BLOG -->
+        <section id="blog">
+            <div class="container flex">
+                <div class="header waypoint" data-animation="slide-in-left">DOWNLOAD RESUME</div>
+                <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+                <div class="flex row wrap">
+                    <footer>
+                        <div class="icon-wrap flex row">
+                            <a href="pdf/resume.pdf" target="_blank">
+                                <div class="flex icon" id="icon-2">
+                                    <i class="mdi mdi-file-pdf"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+                <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+            </svg>
+            <div class="container flex">
+                <div class="header waypoint" data-animation="slide-in-left">Connect</div>
+                <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
+                <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">
+                    Have a question or want to work together?
+                </div>
+                <form class="waypoint" id="myForm" data-animation="pop-in" data-delay=".5s" id="contact-form">
+                    <input placeholder="Name" type="text" name="from_name" required />
+                    <input placeholder="+91 9999999999" type="tel" name="user_phone"  />
+                    <input placeholder="abc@xyz.in" type="email" name="user_email" required /> 
+                    <input placeholder="xyz.in" type="url" name="user_website" required />  
+                    <textarea placeholder="Your Message" type="text" name="user_message"></textarea>
+                    <div id="success">
+                        <div> Your message was sent successfully. Thanks!<span id="close"class="mdi mdi-close"></span> </div></div>
+                    <input class="button" type="submit" id="submit" value="SUBMIT" />
+              </form>
+            </div>
+        </section>
+        <footer>
+            <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+            <div class="icon-wrap flex row">
+                <a href="https://www.linkedin.com/in/sanjeevpuspam/" target="_blank">
+                    <div class="flex icon" id="icon-1">
+                        <i class="mdi mdi-linkedin"></i>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/sanjeevpuspam/" target="_blank">
+                    <div class="flex icon" id="icon-2">
+                        <i class="mdi mdi-facebook"></i>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/sanjeev.puspam/" target="_blank">
+                    <div class="flex icon" id="icon-3">
+                        <i class="mdi mdi-instagram"></i>
+                    </div>
+                </a>
+                <a href="https://github.com/sanjeevpuspam/" target="_blank">
+                    <div class="flex icon" id="icon-4">
+                        <i class="mdi mdi-github-box"></i>
+                    </div>
+                </a>
+                <a href="https://twitter.com/sanjeevpuspam/" target="_blank">
+                    <div class="flex icon" id="icon-5">
+                        <i class="mdi mdi-twitter"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="info-box">
+                <div class="footnote">
+                    SANJEEV PUSPAM <span class="highlight">&copy;2021</span>
+                </div>
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=+917428843326&text=Hi%20Developer%2C%0A%0AI%20want%20to%20create%20a%20beautiful%20website%2C%20can%20you%20help%20me%3F" id="whatsapp" target="_blank">
+                <i class="fa fa-whatsapp my-float"></i>
+            </a>		
+<div class="to-top">
+	<i class="mdi mdi-arrow-up"></i>
+</div>		
+			
+        </footer>
+    </div>
+    <div id="preload">
+        <img src="img/me.png" />
+        <img src="img/thumb-1.jpg" />
+        <img src="img/thumb-2.jpg" />
+        <img src="img/thumb-3.jpg" />
+        <img src="img/thumb-4.jpg" />
+        <img src="img/thumb-5.jpg" />
+        <img src="img/thumb-6.jpg" />
+        <img src="img/thumb-7.jpg" />
+        <img src="img/thumb-8.jpg" />
+        <img src="img/thumb-9.jpg" />
+        <img src="img/thumb-10.jpg" />
+        <img src="img/thumb-11.jpg" />
+		<img src="img/thumb-12.jpg" />
+
+        <img src="img/slides/venndy-0.jpg" />
+        <img src="img/slides/venndy-1.jpg" />
+        <img src="img/slides/venndy-2.jpg" />
+        <img src="img/slides/ecomhunt-0.jpg" />
+        <img src="img/slides/ecomhunt-1.jpg" />
+        <img src="img/slides/ecomhunt-2.jpg" />
+        <img src="img/slides/dhanuka-0.jpg" />
+        <img src="img/slides/dhanuka-1.jpg" />
+        <img src="img/slides/dhanuka-2.jpg" />
+        <img src="img/slides/indivisualcollective-0.jpg" />
+        <img src="img/slides/indivisualcollective-1.jpg" />
+        <img src="img/slides/indivisualcollective-2.jpg" />
+        <img src="img/slides/dogtube-0.jpg" />
+        <img src="img/slides/dogtube-1.jpg" />
+        <img src="img/slides/dogtube-2.jpg" />
+        <img src="img/slides/tftus-0.jpg" />
+        <img src="img/slides/tftus-1.jpg" />
+        <img src="img/slides/tftus-2.jpg" />
+        <img src="img/slides/monarchymedallions-0.jpg" />
+        <img src="img/slides/monarchymedallions-1.jpg" />
+        <img src="img/slides/monarchymedallions-2.jpg" />
+        <img src="img/slides/purafem-0.jpg" />
+        <img src="img/slides/purafem-1.jpg" />
+        <img src="img/slides/purafem-2.jpg" />
+        <img src="img/slides/ccnet-0.jpg" />
+        <img src="img/slides/ccnet-1.jpg" />
+        <img src="img/slides/ccnet-2.jpg" />
+        <img src="img/slides/annarborapartments-0.jpg" />
+        <img src="img/slides/annarborapartments-1.jpg" />
+        <img src="img/slides/annarborapartments-2.jpg" />
+        <img src="img/slides/thetrainingdesk-0.jpg" />
+        <img src="img/slides/thetrainingdesk-1.jpg" />
+        <img src="img/slides/thetrainingdesk-2.jpg" />
+		<img src="img/slides/ibta-1.jpg" />
+        <img src="img/slides/ibta-2.jpg" />
+
+    </div>
+	<script src="js/canvas.js"></script>
+</body>
+</html>
