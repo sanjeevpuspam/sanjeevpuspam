@@ -20,8 +20,8 @@ I am a passionate and Aspiring Data Scientist. I am enhancing my knowledge with 
 <h2 align="left">My knowledge & Experience:</h2>
 <h3 align="left">Machine Learning Techs:</h3>
 <p align="left">
-<a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
 <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
+<a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
 </p>
 
 <h3 align="left">FrontEnd Techs:</h3>
@@ -33,10 +33,21 @@ I am a passionate and Aspiring Data Scientist. I am enhancing my knowledge with 
 <h3 align="left">Server Side Techs:</h3>
 <p align="left">
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="flask" width="80" height="40"/>
-<img src="https://img.shields.io/badge/LARAVEL-ffffff?style=for-the-badge&logo=laravel&logoColor=ff2d20" alt="flask" width="80" height="40"/>
 <img src="https://img.shields.io/badge/SCSS-d47ba8?style=for-the-badge&logo=sass&logoColor=white" alt="flask" width="80" height="40"/>
  <img src="https://img.shields.io/badge/PHP-8892bf?style=for-the-badge&logo=php&logoColor=222530" alt="flask" width="80" height="40"/>
- <img src="https://img.shields.io/badge/WORDPRESS-0073aa?style=for-the-badge&logo=wordpress&logoColor=white" alt="flask" width="80" height="40"/>
+</p>
+
+<h3 align="left">Framework Techs:</h3>
+<p align="left">
+<img src="https://img.shields.io/badge/LARAVEL-ffffff?style=for-the-badge&logo=laravel&logoColor=ff2d20" alt="flask" width="80" height="40"/>
+<img src="https://img.shields.io/badge/EXPRESS-353535?style=for-the-badge&logo=express&logoColor=ffffff" alt="flask" width="80" height="40"/>
+ <img src="https://img.shields.io/badge/CODEIGNITER-ffffff?style=for-the-badge&logo=codeIgniter&logoColor=ff2d20" alt="flask" width="80" height="40"/>
+</p>
+
+<h3 align="left">CMS Techs:</h3>
+<p align="left">
+<img src="https://img.shields.io/badge/WORDPRESS-0073aa?style=for-the-badge&logo=wordpress&logoColor=white" alt="flask" width="80" height="40"/>
+ <img src="https://img.shields.io/badge/MAGENTO-ffffff?style=for-the-badge&logo=magento&logoColor=ff2d20" alt="flask" width="80" height="40"/>
 </p>
 
 
