@@ -21,7 +21,6 @@ I am a passionate and Aspiring Data Scientist. I am enhancing my knowledge with 
 <h3 align="left">Machine Learning Techs:</h3>
 <p align="left">
 <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
-
 <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
  
 </p>
@@ -29,12 +28,18 @@ I am a passionate and Aspiring Data Scientist. I am enhancing my knowledge with 
 <h3 align="left">Server Side Techs:</h3>
 <p align="left">
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="flask" width="80" height="40"/>
- <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="flask" width="80" height="40"/>
+ <img src="https://img.shields.io/badge/PHP-8892bf?style=for-the-badge&logo=php&logoColor=222530" alt="flask" width="80" height="40"/>
+ <img src="https://img.shields.io/badge/WORDPRESS-0073aa?style=for-the-badge&logo=wordpress&logoColor=white" alt="flask" width="80" height="40"/>
+ <img src="https://img.shields.io/badge/LARAVEL-ffffff?style=for-the-badge&logo=laravel&logoColor=ff2d20" alt="flask" width="80" height="40"/>
 </p>
+
+
 <h3 align="left">Languages:</h3>
 <p align="left">
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="flask" width="80" height="40"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="flask" width="80" height="40"/>
+<img src="https://img.shields.io/badge/JQUERY-0769ad?style=for-the-badge&logo=jquery&logoColor=white" alt="flask" width="80" height="40"/>
+<img src="https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3&logoColor=white" alt="flask" width="80" height="40"/>
+<img src="https://img.shields.io/badge/SCSS-d47ba8?style=for-the-badge&logo=sass&logoColor=white" alt="flask" width="80" height="40"/>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="flask" width="80" height="40"/>
 </p>
 <h3 align="left">Databases:</h3>
