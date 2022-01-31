@@ -1,6 +1,6 @@
   <!-- Hi there! Feel free to make this your own but don't use my data. Attributions are welcomed --> 
-<h3>Hi there! 👋🤓<br>I'm Sanjeev Kumar Puspam <br>a Backend Developer,  Web Developer, Designer & Creator</h3>
-  <h2>✨✨✨✨I am Full Stack Data Scientist ✨✨✨</h2>
+<h3>Hi there! 👋🤓<br>I'm Sanjeev Kumar Puspam <br>a FullStack Developer, Backend Developer, Web Developer, Designer & Creator</h3>
+<h2>✨✨✨✨I am Full Stack Data Scientist ✨✨✨</h2>
 <a href="https://www.linkedin.com/in/sanjeevpuspam">
   <img align="left" alt="Sanjeev's LinkedIN" width="22px" src="https://github.com/sanjeevpuspam/sanjeevpuspam/blob/main/img/md/linkedin.svg" />
 </a>
