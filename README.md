@@ -34,6 +34,7 @@ I am a passionate and Aspiring Data Scientist. I am enhancing my knowledge with 
 <h3 align="left">Languages:</h3>
 <p align="left">
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="flask" width="80" height="40"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="flask" width="80" height="40"/>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="flask" width="80" height="40"/>
 </p>
 <h3 align="left">Databases:</h3>
