@@ -43,7 +43,6 @@ I am a passionate and Aspiring Data Scientist. I am enhancing my knowledge with 
 <img src="https://img.shields.io/badge/LARAVEL-ffffff?style=for-the-badge&logo=laravel&logoColor=ff2d20" alt="flask" width="80" height="40"/>
 <img src="https://img.shields.io/badge/EXPRESS-353535?style=for-the-badge&logo=express&logoColor=ffffff" alt="flask" width="80" height="40"/>
  <img src="https://img.shields.io/badge/CODEIGNITER-ffffff?style=for-the-badge&logo=codeIgniter&logoColor=ff2d20" alt="flask" width="80" height="40"/>
- <img src="https://img.shields.io/badge/graphql-de33a6?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL" width="80" height="40"/>
 </p>
 
 <h3 align="left">CMS Techs:</h3>
